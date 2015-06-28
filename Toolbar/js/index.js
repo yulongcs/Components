@@ -15,7 +15,6 @@ $.ajax({
 });
 
 $.jQuery(document).ready(function($) {
-	
 	alert("a");
 	alert("b")
 });
