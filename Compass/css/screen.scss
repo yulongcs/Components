@@ -1,0 +1,32 @@
+/*
+ *Import this file using the follwing HTML or equivalent:
+ *<link href="css/screen.css" media="screen,projection" rel="stylesheet" type="text/css" />
+/*!
+ * CONTENTS
+ *
+ *SETTINGS
+ *variables.................变量集中存储文件
+ *mixin.....................mixin集中存储文件
+ *
+ *TOOLS
+ *
+ *COMPONENTS
+ *reset.....................Compass内置浏览器重置样式文件
+ *
+ *BUSINESS
+ *
+ *BASE
+ *scree.scss................针对当前站点主页的样式修饰
+ */
+
+
+@import "variables","mixin";
+@import "normalize";
+@import "normalize-version";
+
+/* 分割线1 */
+@import "nomalize/base";
+/* 分割线2 */
+@import "nomalize/html5";
+/* 分割线3 */
+@import "nomalize/links";

@@ -11,6 +11,7 @@ requirejs(['jquery','backtop'], function($, backtop){
 	// 	pos:100,
 	//     speed:1000
 	// });
+
 $('#backTop').backtop({
 	mode: 'move',
 	pos:100,
